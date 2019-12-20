@@ -2,7 +2,7 @@ import googlemaps
 from datetime import datetime
 import csv
 import pandas as pd
-gmaps = googlemaps.Client(key='AIzaSyBUSrDQ58L1BJa7kt3o1YU-hBwkxubmHhI')
+gmaps = googlemaps.Client(key='Your API KEY')
 lat = []
 lng = []
 def read_file():
